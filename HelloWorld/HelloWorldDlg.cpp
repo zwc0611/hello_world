@@ -63,6 +63,7 @@ BEGIN_MESSAGE_MAP(CHelloWorldDlg, CDialog)
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
 	//}}AFX_MSG_MAP
+	ON_BN_CLICKED(IDC_BUTTON1, &CHelloWorldDlg::OnBnClickedButton1)
 END_MESSAGE_MAP()
 
 
@@ -151,3 +152,9 @@ HCURSOR CHelloWorldDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+void CHelloWorldDlg::OnBnClickedButton1()
+{
+	// TODO: 在此添加控件通知处理程序代码
+	AfxMessageBox("001");
+}

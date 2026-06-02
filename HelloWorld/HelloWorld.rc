@@ -96,7 +96,8 @@ FONT 9, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     DEFPUSHBUTTON   "确定",IDOK,209,179,50,14
     PUSHBUTTON      "取消",IDCANCEL,263,179,50,14
-    CTEXT           "Hello World 001",IDC_STATIC,10,96,300,8
+    CTEXT           "Hello World 001",IDC_STATIC,7,160,300,8
+    PUSHBUTTON      "Test 1",IDC_BUTTON1,113,112,50,14
 END
 
 
