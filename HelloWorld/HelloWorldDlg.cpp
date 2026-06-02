@@ -156,5 +156,5 @@ HCURSOR CHelloWorldDlg::OnQueryDragIcon()
 void CHelloWorldDlg::OnBnClickedButton1()
 {
 	// TODO: 在此添加控件通知处理程序代码
-	AfxMessageBox("002"); 
+	AfxMessageBox("003"); 
 }
